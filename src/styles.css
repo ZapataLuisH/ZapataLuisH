@@ -1,1 +1,51 @@
-/* You can add global styles to this file, and also import other style files */
+/* Estilos para el título principal */
+.title {
+  font-size: 3em; /* Tamaño de fuente grande */
+  font-weight: bold; /* Negrita */
+  text-align: center; /* Centrado */
+  margin-top: 50px; /* Espacio superior */
+  margin-bottom: 30px; /* Espacio inferior */
+  color: hsl(239, 89%, 25%); /* Color del texto */
+}
+
+
+
+.title {
+  color: #2c3e50;
+  background-color: #ecf0f1;
+  padding: 20px;
+}
+
+h2 {
+  font-size: 2em; /* Tamaño de fuente grande */
+  font-weight: bold; /* Negrita */
+  text-align: center; /* Centrado */
+  margin-bottom: 30px; /* Espacio inferior */
+  color: #333333; /* Color del texto */
+}
+/* Estilos para el cuerpo de la página */
+body {
+  background-color: rgb(106, 158, 180); /* Gris claro cercano al azul */
+}
+/* Estilos para el contenedor de la foto de perfil */
+.profile-picture {
+  float: left; /* Para alinear a la izquierda */
+  margin-right: 20px; /* Espacio a la derecha del contenedor de la foto */
+  border-radius: 50%; /* Hace que el borde del contenedor sea redondeado (forma de óvalo) */
+  overflow: hidden; /* Para recortar cualquier parte de la foto que salga del contenedor */
+}
+
+/* Estilos para la foto de perfil */
+.profile-picture img {
+  display: block; /* Hace que la imagen sea un bloque para manejar el margen correctamente */
+  width: 150px; /* Ancho de la foto */
+  height: auto; /* Altura automática para mantener la proporción */
+  border: 5px solid #fff; /* Borde blanco alrededor de la foto */
+}
+
+/* Estilos para el contenedor del título */
+.title-container {
+  overflow: hidden; /* Para limpiar el float de la foto de perfil */
+}
+
+/* Resto de tus estilos... */
