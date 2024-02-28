@@ -75,11 +75,15 @@ h3 {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1); /* Sombras para un efecto de relieve */
 }
 
-/* Estilo específico para la primera columna */
+/* Estilos para la primera columna */
 .profile-column {
   background-color: #f9f9f9;
   margin-right: 5mm;
+  font-size: 1.1em; /* Aumentar el tamaño de la fuente */
+  line-height: 1.6; /* Espaciado entre líneas */
+  color: #333; /* Color del texto */
 }
+
 
 /* Estilo específico para la segunda columna */
 .projects-column {
@@ -114,7 +118,3 @@ h3 {
   margin-bottom: 20px; /* Espacio inferior */
 }
 
-/* Estilos adicionales si los necesitas */
-.intro {
-  /* Estilos adicionales para el contenedor del primer párrafo, si es necesario */
-}
