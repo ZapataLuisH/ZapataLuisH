@@ -1,0 +1,46 @@
+/* Estilos para el componente header */
+nav {
+  background-color: #333; /* Fondo oscuro */
+  color: #fff; /* Texto blanco */
+}
+
+/* Estilos para el contenedor principal */
+nav .max-w-screen-xl {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem; /* Ajusta el padding según sea necesario */
+}
+
+/* Estilos para el logo y el texto */
+nav .logo-text {
+  display: flex;
+  align-items: center;
+}
+
+/* Estilos para los enlaces de navegación */
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin-right: 1rem; /* Espacio entre los elementos de la lista */
+}
+
+nav ul li a {
+  color: inherit;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: none; /* Subrayado al pasar el ratón sobre los enlaces */
+}
+
+/* Estilos para el botón */
+nav button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}

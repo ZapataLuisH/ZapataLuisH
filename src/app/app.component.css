@@ -1,0 +1,123 @@
+.title {
+  font-size: 4em; /* Tamaño de la letra grande */
+  color: white; /* Color del texto */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Efecto de sombra */
+  margin-bottom: 20px; /* Espacio inferior */
+}
+
+/* Estilos para el título principal */
+.title {
+  font-size: 3em; /* Tamaño de fuente grande */
+  font-weight: bold; /* Negrita */
+  text-align: center; /* Centrado */
+  margin-top: 50px; /* Espacio superior */
+  margin-bottom: 30px; /* Espacio inferior */
+  color: hsl(239, 89%, 25%); /* Color del texto */
+}
+
+
+
+.title {
+  color: #2c3e50;
+  background-color: #ecf0f1;
+  padding: 20px;
+}
+
+h2 {
+  font-size: 2em; /* Tamaño de fuente grande */
+  font-weight: bold; /* Negrita */
+  text-align: center; /* Centrado */
+  margin-bottom: 30px; /* Espacio inferior */
+  color: #333333; /* Color del texto */
+}
+
+
+/* Estilos para el contenedor de la foto de perfil */
+.profile-picture {
+  float: left; /* Para alinear a la izquierda */
+  margin-right: 20px; /* Espacio a la derecha del contenedor de la foto */
+  border-radius: 50%; /* Hace que el borde del contenedor sea redondeado (forma de óvalo) */
+  overflow: hidden; /* Para recortar cualquier parte de la foto que salga del contenedor */
+}
+
+/* Estilos para la foto de perfil */
+.profile-picture img {
+  display: block; /* Hace que la imagen sea un bloque para manejar el margen correctamente */
+  width: 200px; /* Ancho de la foto */
+  height: auto; /* Altura automática para mantener la proporción */
+  border: 5px solid #fff; /* Borde blanco alrededor de la foto */
+}
+
+/* Estilos para el contenedor del título */
+.title-container {
+  overflow: hidden; /* Para limpiar el float de la foto de perfil */
+}
+
+h3 {
+  font-size: 1.5em; /* Tamaño de fuente mediano */
+  font-weight: normal; /* Puede ser normal o cualquier otro valor según tu preferencia */
+  text-align: center; /* Centrado */
+  color: hsl(0, 0%, 14%); /* Color del texto */
+  margin-bottom: 20px; /* Espacio inferior */
+}
+/* Estilos para el contenedor de las columnas */
+.columns-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+/* Estilos para las columnas */
+.column {
+  flex: 1;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1); /* Sombras para un efecto de relieve */
+}
+
+/* Estilos para la primera columna */
+.profile-column {
+  background-color: #f9f9f9;
+  margin-right: 5mm;
+  font-size: 1.1em; /* Aumentar el tamaño de la fuente */
+  line-height: 1.6; /* Espaciado entre líneas */
+  color: #333; /* Color del texto */
+}
+
+
+/* Estilo específico para la segunda columna */
+.projects-column {
+  background-color: #f2f2f2;
+  margin-left: 5mm;
+}
+/* Estilos para la lista de proyectos */
+.project-list {
+  list-style-type: none; /* Eliminar viñetas de la lista */
+  padding: 0; /* Eliminar relleno interior */
+}
+
+.project-list li {
+  font-family: 'Arial', sans-serif; /* Tipo de letra */
+  font-size: 1.1em; /* Tamaño de fuente */
+  margin-bottom: 10px; /* Espacio entre elementos de la lista */
+  background-color: #f2f2f2; /* Color de fondo */
+  border-radius: 5px; /* Bordes redondeados */
+  padding: 10px; /* Espacio interno */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra para un efecto de relieve */
+}
+
+.project-list li:last-child {
+  margin-bottom: 0; /* Eliminar espacio inferior para el último elemento */
+}
+/* Estilos para el primer párrafo */
+.intro p {
+  font-family: 'Times New Roman', Times, serif; /* Tipo de letra serifada */
+  font-size: 1.2em; /* Tamaño de fuente más grande */
+  line-height: 1.6; /* Espaciado entre líneas */
+  color: #333; /* Color del texto */
+  margin-bottom: 20px; /* Espacio inferior */
+}
+
+nav .logo-text span {
+  font-size: 10rem; /* Tamaño de la letra más grande */
+}
