@@ -29,6 +29,7 @@ h2 {
   text-align: center; /* Centrado */
   margin-bottom: 30px; /* Espacio inferior */
   color: #333333; /* Color del texto */
+  background-color: #ecf0f1;
 }
 
 
@@ -38,6 +39,7 @@ h2 {
   margin-right: 20px; /* Espacio a la derecha del contenedor de la foto */
   border-radius: 50%; /* Hace que el borde del contenedor sea redondeado (forma de óvalo) */
   overflow: hidden; /* Para recortar cualquier parte de la foto que salga del contenedor */
+  border: 5px solid #100f0f;
 }
 
 /* Estilos para la foto de perfil */
@@ -45,7 +47,7 @@ h2 {
   display: block; /* Hace que la imagen sea un bloque para manejar el margen correctamente */
   width: 200px; /* Ancho de la foto */
   height: auto; /* Altura automática para mantener la proporción */
-  border: 5px solid #fff; /* Borde blanco alrededor de la foto */
+   /* Borde blanco alrededor de la foto */
 }
 
 /* Estilos para el contenedor del título */
@@ -82,10 +84,11 @@ h3 {
   font-size: 1.1em; /* Aumentar el tamaño de la fuente */
   line-height: 1.6; /* Espaciado entre líneas */
   color: #333; /* Color del texto */
+  text-align: justify;
 }
 
 
-/* Estilo específico para la segunda columna */
+/* Estilo para la segunda columna */
 .projects-column {
   background-color: #f2f2f2;
   margin-left: 5mm;
@@ -120,4 +123,10 @@ h3 {
 
 nav .logo-text span {
   font-size: 10rem; /* Tamaño de la letra más grande */
+}
+
+.marco{
+  background-color: rgb(86, 77, 96); /* Fondo blanco en el exterior */
+  padding: 20px; /* Ajusta el padding según sea necesario */
+  border: 5px solid rgb(251, 251, 251); /* Borde negro */
 }
